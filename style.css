@@ -1,0 +1,40 @@
+body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.pageTitle{
+    background-color: rgb(100, 149, 168);
+    border: .25em solid black;
+}
+.pageTitle h1 {
+    font-size: 5em;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+
+}
+.pageTitle h2 {
+    font-size: 1em;
+    margin-left: 8%;
+    margin-bottom: 0%;
+}
+
+.grid {
+    border:3px;
+    width: auto;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.box {
+   background-color: lightgoldenrodyellow;
+   color: black;
+   border: 3px solid black; 
+}
+figure #worldMap {
+    max-width: 100%;
+}
+header figure {
+    margin: 1%;
+    border: 5px solid black;
+}
